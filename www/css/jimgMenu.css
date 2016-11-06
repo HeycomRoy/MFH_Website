@@ -1,0 +1,57 @@
+
+.jimgMenu {
+	position: relative;
+	width: 902px;
+	
+	height: 288px;
+	overflow: hidden;
+	/*margin: 25px 0px 0px;*/
+	
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 288px;
+	width: 1800px;
+	/*margin-left: -40px;*/
+padding:0px;
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:100px;
+	height: 288px;
+	
+}
+
+.jimgMenu ul li.landscapes a {
+	background: url(../images/gallery/wlt1.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.people a {
+	background: url(../images/gallery/Diploma.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.nature a {
+	background: url(../images/gallery/wlt2.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.abstract a {
+	background: url(../images/gallery/English.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.urban a {
+	background: url(../images/gallery/students.jpg) repeat scroll 0%;
+	min-width:502px;
+	
+}

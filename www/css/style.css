@@ -1,0 +1,716 @@
+/*///css reset/////*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*///css reset end/////*/
+
+#main_BG
+{
+	background-image:url(../images/headimages/bg.jpg);
+	background-attachment:fixed;
+	background-repeat:repeat-x;
+}
+
+img
+{
+	border:none;
+}
+/*overall styling*/
+#content_BG
+{
+	width:922px;
+	height:auto;
+	margin:0 auto;
+	background-color:#FFF;
+	min-height:400px;
+}
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+p, a
+{	
+	color:black;
+	text-decoration:none;
+}
+
+h1
+{
+	font-size:1.4em;
+}
+h2
+{
+	font-size:1.3em;
+}
+h3
+{
+	font-size:1.2em;
+}
+h4
+{
+	font-size:1.1em;
+}
+h5
+{
+	font-size:0.8em;
+}
+h6
+{
+	font-size:0.7em;
+}
+/*header styling*/
+#header
+{
+	width:922px;
+	height:96px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+/*navgation bar styling*/
+#nav_bar
+{
+	width:auto;
+	background-color:orange;
+	height:40px;
+	list-style:none;
+}
+
+#nav_bar ul
+{
+	width:922px;
+	padding:12px 0 0 0;
+	margin:0 auto;
+}
+
+#nav_bar li
+{
+	display:inline;
+	list-style:none;
+	margin:0 35px 0 35px;
+}
+#nav_bar a
+{
+	text-decoration:none;
+	color: #000;
+	padding:12px;
+}
+#nav_bar a:hover
+{
+	background-color:#000;
+	color:#fff;
+}
+
+#nav_bar .on_page
+{
+	background-color:#000;
+	color:#fff;
+	padding:12px;
+}
+
+/*image gallery styling*/
+#image_gallery
+{
+	height:288px;
+	width:902px;
+	margin-left:10px;
+}
+
+.image_end
+{
+	height:14px;
+	width:922px;
+	background-color:orange;
+}
+
+/*///////////Home content styling//////////////////*/
+#highlights
+{
+	height:356px;
+	width:902px;
+	border:solid 1px #CCC;
+	margin:0 auto;
+	margin-top:10px;
+}
+#news_partnership
+{
+	height:352px;
+	width:922px;
+}
+
+.see_all
+{
+	float:right;
+	margin-top:10px;
+	color:#3F8FCA;
+}
+
+/*promotion styling*/
+.pro_desc
+{
+	width:411px;
+	margin:10px 0 0 10px;
+}
+.promotions
+{
+	width:428px;
+	height:350px;
+}
+#promotion1
+{
+	float:left;
+	margin:10px 0 0 10px;
+}
+#promotion2
+{
+	float:right;
+	margin:10px 10px 0 0;
+}
+
+#news_box
+{
+	border:solid 1px #CCC;
+	width:444px;
+	float:left;
+	margin:0 0 0 10px;
+	height:310px;
+}
+
+.news_events :hover
+{
+	border:solid 2px #808080;
+	cursor: pointer;
+}
+
+.select
+{
+	border:solid 2px #CCC;
+	-moz-border-radius: 5px;
+	margin:5px 10px 10px 10px;
+	width:424px;
+	background-color:#FFFFFF;
+	font-size:1.3em;
+}
+
+.newCourseA :hover
+{
+	border:solid 2px #808080;
+	cursor: pointer;
+}
+
+.newCourse
+{
+	border:solid 2px #CCC;
+	-moz-border-radius: 5px;
+	margin:5px 10px 10px 10px;
+	width:255px;
+	background-color:#FFFFFF;
+	font-size:1.3em;
+}
+
+.spagetitle
+{
+	margin:10px 0 10px 10px;
+}
+
+.newtitle
+{
+	color:#3F8FCA;
+}
+
+#partnership_box
+{
+	border:solid 1px #CCC;
+	width:444px;
+	float:right;
+	height:310px;
+	margin:0 10px 0 0;
+}
+#news_partnership h1
+{
+	
+	margin:15px 0 0 15px;
+}
+#news_partnership
+{
+	margin-top:10px;
+}
+
+
+#icon_box, .AMicon
+{
+	margin:15px 0 7px 15px;
+}
+
+.AMicon
+{
+	width:80px;
+}
+
+/*///////////Home content styling end//////////////////*/
+
+#pagination {
+	clear:both;
+	padding: 40px 30px 10px 10px;
+}	
+
+#pagination  ul  {
+	margin: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#pagination li{
+	display: block;
+	float: left;
+	font-weight:bold;
+	color: #000066;
+	
+}
+#pagination .notCur {
+	border-right:thin solid #000066; 
+	padding: 0 7px;
+}	
+	
+#pagination .curPage a {
+	color:#CE1126;
+	border-right:thin solid #000066; 
+	padding: 0 7px;
+}
+#pagination .next{
+	padding-left: 7px;
+}
+
+
+
+#desc h3
+{
+	margin:10px;
+}
+#desc p
+{
+	margin:0 10px 10px 10px;
+}
+
+
+/*///////////What's new page content styling start//////////////////*/
+.head_image
+{
+	margin-left:10px;
+}
+.contents_showbox
+{
+	min-height:800px;
+}
+.whts_new
+{
+	width:612px;
+	height:auto;
+	float:left;
+	margin-left:11px;
+}
+.new_stuff
+{
+	width:612px;
+	min-height:200px;
+	margin-top:10px;
+	-moz-border-radius: 10px;
+	border:solid 1px #CCC;
+}
+
+.new_stuff_pic
+{
+	/*width:200px;*/
+	padding:10px;
+	/*float:left;*/
+	
+}
+
+.p_link :hover
+{
+	cursor:pointer;
+	background-color:#F2EDE4;
+}
+
+.content_text
+{
+	width:600px;
+	font-size:1.3em;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.side_links
+{
+	width:275px;
+	float:left;
+	margin:10px 0 0 10px;
+}
+
+.side_links
+{
+	-moz-border-radius: 15px;
+	border:solid 1px #CCC;
+}
+
+.q_link :hover
+{
+	background:#7FB2F0;
+	cursor:pointer;
+}
+
+.s_link
+{
+	width:255px;
+	height:50px;
+	margin:10px;
+	font-size:1em;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color:#FFFFFF;
+	border:none;
+}
+
+.s_link img
+{
+	float:left;
+	margin:5px 0 0 5px;
+}
+
+.s_link span
+{
+	float:left;
+	margin:20px 0 0 10px;
+}
+
+.show_image
+{
+	margin:10px 0 0 10px;
+	min-height:400px
+}
+.show_course
+{
+	min-height:500px;
+	width:612px;
+	float:left;
+	margin:10px 0 0 10px;
+	-moz-border-radius:15px 15px 15px 15px;
+	border:1px solid #CCCCCC;
+}
+/*///////////What's new page content styling end//////////////////*/
+
+/*///////////Student life page content styling start//////////////////*/
+#s_life_content
+{
+	border:dashed 1px orange;
+	height:auto;
+	width:612px;
+	margin:10px 0 0 11px;
+	float:left
+}
+#dec_wlt, #images_wlt, #homestay_wlt
+{
+	width:602px;
+	min-height:300px;
+	margin-left:5px;
+}
+/*///////////Student life page content styling end//////////////////*/
+
+/*///////////About us page content styling start//////////////////*/
+.accordion_T
+{
+	font-size:0.8em !important;
+}
+
+.accordion_P
+{
+	font-size:0.7em !important;
+}
+
+.break_accordion
+{
+	height:40px;
+}
+
+.t_title
+{
+	font-size:1.1em;
+	color:#3F8FCA;
+}
+/*///////////About us page content styling end//////////////////*/
+
+/*///////////Contact page content styling start//////////////////*/
+#contact_area
+{
+	width:602px;
+	float:left;
+	margin:10px 0 0 10px;
+}
+
+.col1
+{
+	width:200px;
+
+	float:left;
+}
+
+.sub
+{
+	margin-left:320px;
+}
+
+#email_form
+{
+	width:90%;
+	margin-top:10px;
+	margin-bottom:30px;
+	/*border-bottom:solid 1px #CCC;*/
+}
+
+#map_area
+{
+	width:300px;
+	height:300px;
+	float:left;
+}
+
+#contact_nomber
+{
+	width:200px;
+	height:300px;
+	float:left;
+	margin-left:10px;
+}
+#map_contacts
+{
+	margin:0 auto;
+	width:510px;
+}
+
+/*///////////Contact page content styling end//////////////////*/
+
+
+/*footer styling*/
+#footer
+{
+	height:70px;
+	background-color:#dfdfdf;
+}
+
+#footer_con
+{
+	height:70px;
+	width:922px;
+	margin:0 auto;
+}
+
+#footer_logo
+{
+	height:70px;
+	width:500px;
+	float:left;
+}
+
+#footer_logo img
+{
+	width:120px;
+	float:left;
+	margin-top:15px;
+}
+
+#footer_logo p
+{
+	float:left;
+	padding:25px 0 0 5px;
+	margin-top:15px;
+}
+#copyright
+{
+	float:right;
+	padding:25px 25px 0 0 ;
+}
+#admin_link
+{
+	float:right;
+	font-size:0.9em;
+	margin:25px 0 0 0 ;
+	border: solid 1px red;
+}
+
+.sitemap
+{
+	margin:10px 0 0 325px;
+	color: #D40D12;
+}
+
+#sitemap_t
+{
+	margin:0 0 10px 170px;
+	padding-top:10px;
+}
+.s_link
+{
+	list-style: disc;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.s_link :hover
+{
+	color: #D40D12;
+}
+/*///////////Login page content styling strat//////////////////*/
+.admbox
+{
+	border:solid 1px #CCC;
+	-moz-border-radius: 15px;
+	width:420px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.login_form
+{
+	margin:30px;
+}
+
+.pagehead
+{
+	padding:40px 0 20px 160px;
+	font-size:1.2em;
+}
+
+.clear
+{
+	height:20px;
+}
+.content_break
+{
+	height:20px;
+}
+.submit
+{
+	float:right;
+}
+/*///page msg///*/
+.pgErrMsg
+{
+	padding:20px;
+	color:#D40D12;
+}
+.add_user
+{
+	margin:10px;
+	height:30px;
+}
+.add_user button
+{
+	height:30px;
+	cursor:pointer;
+}
+/*///////////Login page content styling end//////////////////*/
+
+
+/*///////////admin view styling strat//////////////////*/
+.editLink, .addLink
+{
+	color:#D40D12;
+	margin:20px;
+}
+
+.editHome, .prdrow, #editform, .stu_content, .Abt_form, .log, #R_F
+{
+	padding:10px;
+	border:solid 1px #CCC;
+	-moz-border-radius: 15px;
+	min-height:300px;
+	width:550px;
+	margin:0 auto;
+}
+
+#HSum
+{
+	float:left;
+}
+#pimage
+{
+	float:left;
+}
+.showp
+{
+	width:400px;
+}
+.editLink1 span
+{
+	font-size:0.8em;
+	color:red;
+}
+
+.addNewLink
+{
+	color:red;
+	text-decoration:underline;
+}
+.pageMsg, .col3, .deleteLink1, .pagemsg
+{
+	color:red;
+}
+.pagemsg
+{
+	margin-left:170px;
+}
+
+.col3
+{
+	font-size:0.9em;
+}
+.vMsg
+{
+	color:red;
+	margin:5px 0 15px 0;
+}
+/*///////////admin view styling end//////////////////*/
+
